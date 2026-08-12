@@ -4,6 +4,8 @@ This handout evaluates a capacity-bounded customer investigation queue for a con
 
 **The submitted notebooks are pre-executed and contain all aggregate outputs required for grading. Private source data are intentionally excluded and are not required to review the analysis.**
 
+Notebooks 01--04 contain the earlier data-understanding, EDA, feature-engineering, and regression-baseline work published in the separate [Module 20 repository](https://github.com/mrcfabbri/ucb-ml-capstone-module20). This final Module 24 repository continues the sequence at notebook 05 and contains all evidence needed for this submission.
+
 ## Submission overview
 
 The hurdle/cadence model forecasts next-month ordering activity more

@@ -33,7 +33,7 @@ test:
 	$(UV_RUN) pytest "$(DELIVERABLE_DIR)/tests" -q -p no:cacheprovider
 
 lint:
-	$(UV_RUN) ruff check "$(DELIVERABLE_DIR)/src" "$(DELIVERABLE_DIR)/tests"
+	$(UV_RUN) ruff check "$(DELIVERABLE_DIR)/src" "$(DELIVERABLE_DIR)/tests" "$(NOTEBOOK_DIR)"
 
 privacy:
 	$(UV_RUN) python "$(DELIVERABLE_DIR)/src/check_privacy.py"

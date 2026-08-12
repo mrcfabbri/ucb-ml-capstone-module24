@@ -22,6 +22,11 @@ commercial-value estimation are outside the current evaluation.
 - **Outside the current evaluation:** anomaly correctness, reviewer usefulness, adoption, ROI,
   and financial impact.
 
+![Executive dashboard comparing model performance, peer sensitivity, queue overlap, and pilot composition](figures/executive_dashboard.png)
+
+The dashboard summarizes the four comparisons that determine the recommendation. Detailed values,
+definitions, and uncertainty estimates appear in the modeling and findings sections below.
+
 ## Problem Statement
 
 Commercial teams have limited capacity to investigate customer behavior. This project prioritizes
