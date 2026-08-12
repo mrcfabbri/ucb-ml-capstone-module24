@@ -2,6 +2,8 @@
 
 This handout evaluates a capacity-bounded customer investigation queue for a confidential industrial partner. It presents two complementary lenses: a business-friendly S2 deviation score and a hurdle/cadence model for next-month ordering behavior. Both create investigation candidates. Confirmed anomaly classification and automated commercial decisions are outside the project scope.
 
+**The submitted notebooks are pre-executed and contain all aggregate outputs required for grading. Private source data are intentionally excluded and are not required to review the analysis.**
+
 ## Submission overview
 
 The hurdle/cadence model forecasts next-month ordering activity more
