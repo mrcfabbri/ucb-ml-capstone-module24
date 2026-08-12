@@ -1,0 +1,31 @@
+[project]
+name = "module24-customer-prioritization"
+version = "1.0.0"
+description = "Standalone environment for the Module 24 customer-prioritization handout."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=7.3,<8",
+    "matplotlib>=3.11,<4",
+    "nbconvert>=7.17,<8",
+    "nbformat>=5.10,<6",
+    "numpy>=2.5,<3",
+    "pandas>=3,<4",
+    "pillow>=12.3,<13",
+    "pyarrow>=24,<25",
+    "pytest>=9.1,<10",
+    "ruff>=0.15,<0.16",
+    "scikit-learn>=1.9,<2",
+    "seaborn>=0.13,<0.14",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "PIE"]
+ignore = ["E501"]

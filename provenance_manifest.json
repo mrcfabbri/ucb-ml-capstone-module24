@@ -1,0 +1,169 @@
+{
+  "schema_version": 2,
+  "generated_at_utc": "2026-08-11T20:03:06+00:00",
+  "package": {
+    "path": ".",
+    "public_file_count_excluding_manifest": 22,
+    "manifest_scope": "all curated public files except this manifest and the ZIP",
+    "freshness_note": "The ZIP is generated from the same unchanged files immediately after this manifest. validate_artifacts.py verifies every listed hash and archive member."
+  },
+  "environment": {
+    "python": "3.12.11",
+    "uv_project": ".",
+    "lockfile": {
+      "path": "uv.lock",
+      "available": true,
+      "bytes": 110904,
+      "sha256": "5648c6f7d0c0bc9bbf2613fd2284d8456c41102a22b19054da7d9abaf5c68fe4"
+    }
+  },
+  "public_submission_files": [
+    {
+      "path": ".gitignore",
+      "available": true,
+      "bytes": 115,
+      "sha256": "8de7e48386ffb58e7ea29f994de61da775bb3fb4f2548bbef6e17d0a895e2f24"
+    },
+    {
+      "path": "Makefile",
+      "available": true,
+      "bytes": 2435,
+      "sha256": "e1846bfc3a7797b68ec5662b7fd45ce1bc31ef5c410c44991dce1881d11c58ee"
+    },
+    {
+      "path": "README.md",
+      "available": true,
+      "bytes": 7930,
+      "sha256": "ef796773c905a2eecb370485ebdb28a74df624d8646868e70deffc6d14c713f6"
+    },
+    {
+      "path": "docs/business_value_validation.md",
+      "available": true,
+      "bytes": 2614,
+      "sha256": "9e6e6cd1b2a5aa4463892d36e3ca7d308165d8fd7cf4f5297acb8831c66531fd"
+    },
+    {
+      "path": "docs/reader_guide.md",
+      "available": true,
+      "bytes": 2901,
+      "sha256": "0b25fe4071d8f2bbf691ee9ac7085bcd336d6e71ad74cc7e93ce7eb444282a34"
+    },
+    {
+      "path": "evaluation.md",
+      "available": true,
+      "bytes": 2042,
+      "sha256": "b54a9036a3e71c107aa2fb59dfa84b007df7c067ce0a63e00113a0a6d9540cf1"
+    },
+    {
+      "path": "figures/monthly_activity_rate.png",
+      "available": true,
+      "bytes": 48408,
+      "sha256": "dd97864a1201ba8045409248e68ea0b71a3ab3b2a12ad7e5f5ffd810c35c8916"
+    },
+    {
+      "path": "notebooks/05_peer_strategy_baseline.ipynb",
+      "available": true,
+      "bytes": 171853,
+      "sha256": "bc270c088c7cbf7fa872915c86d1dadc6d0eff2ad7566e3ffb30b8a572a55c8b"
+    },
+    {
+      "path": "notebooks/06_hurdle_cadence_model.ipynb",
+      "available": true,
+      "bytes": 529602,
+      "sha256": "cb64f7db48a215a2d0a545db5978536e648a20d35b754320dd8b801cab6b13a1"
+    },
+    {
+      "path": "notebooks/07_alert_episodes_and_pilot.ipynb",
+      "available": true,
+      "bytes": 99228,
+      "sha256": "02713ae294a154d476903623c81b220c718c6d5552e3c4f4ed554fa36eb2acb7"
+    },
+    {
+      "path": "notebooks/99_final_findings.ipynb",
+      "available": true,
+      "bytes": 153289,
+      "sha256": "a62fdfa33831a5ebf5fc6f2448edb9d4aceae3ae546bcb757b0e69b626f133c7"
+    },
+    {
+      "path": "pyproject.toml",
+      "available": true,
+      "bytes": 693,
+      "sha256": "39c73db467e49e468bd134d784d71f8c6af796d173a8dc254f63e98a534e5612"
+    },
+    {
+      "path": "report.md",
+      "available": true,
+      "bytes": 8767,
+      "sha256": "6858af7b36889b5a12d2b6ef57b3d08a92a766d46fc01fa74454e567c8774d12"
+    },
+    {
+      "path": "src/check_privacy.py",
+      "available": true,
+      "bytes": 5855,
+      "sha256": "946020b327d76ee3d3849c06f42e4ba7a1468f01ee53f3ad79bdf1a9e9cf4cd0"
+    },
+    {
+      "path": "src/generate_provenance_manifest.py",
+      "available": true,
+      "bytes": 3185,
+      "sha256": "008c8d402c94a0555e2668b72812cfe2625f3dbc74198f68a0fb909a205856d4"
+    },
+    {
+      "path": "src/module24_workflow.py",
+      "available": true,
+      "bytes": 75931,
+      "sha256": "59eef7872729b1c1353280c2d1884df38ed94a923be0260ee95dc91f5e668f58"
+    },
+    {
+      "path": "src/package_submission.py",
+      "available": true,
+      "bytes": 2261,
+      "sha256": "8b1ea6a8af4fe30d5ff744ec2c4c5e5bcbc93b01e99ce3f7c71875401478e268"
+    },
+    {
+      "path": "src/refresh_forward_uncertainty.py",
+      "available": true,
+      "bytes": 339,
+      "sha256": "412797ffa7ec01ab9a1173504d521c574eaca008d31486c5df8f78a1ae43b73b"
+    },
+    {
+      "path": "src/sync_metrics.py",
+      "available": true,
+      "bytes": 14112,
+      "sha256": "bb408281e9a4eb7bf47ae8d538e2e6b8349286c4818ad1930dd86faebcbc7b1a"
+    },
+    {
+      "path": "src/validate_artifacts.py",
+      "available": true,
+      "bytes": 9251,
+      "sha256": "e81e7a1fd46c909b2bdc849893d11dcb95ddf31353968407c6e0b8191fefb9c7"
+    },
+    {
+      "path": "tests/test_module24_workflow.py",
+      "available": true,
+      "bytes": 13519,
+      "sha256": "f8720b88f54da1e6308eba3ec7a2a575445c428bd3f34a4b6663ba56e10bc26c"
+    },
+    {
+      "path": "uv.lock",
+      "available": true,
+      "bytes": 110904,
+      "sha256": "5648c6f7d0c0bc9bbf2613fd2284d8456c41102a22b19054da7d9abaf5c68fe4"
+    }
+  ],
+  "private_checkpoints_hash_only": [
+    {
+      "path": ".private_cache/03_engineered_customer_month.parquet",
+      "available": false
+    },
+    {
+      "path": ".private_cache/05b_scored_customer_month.parquet",
+      "available": false
+    },
+    {
+      "path": ".private_cache/06_next_state_customer_month.parquet",
+      "available": false
+    }
+  ],
+  "privacy_note": "Private checkpoint contents, customer identifiers, commercial values, and row-level outputs are intentionally omitted. Availability, size, and SHA-256 support an authorized local rerun without disclosing private contents."
+}
