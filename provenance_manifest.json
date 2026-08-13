@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-12T04:53:22+00:00",
+  "generated_at_utc": "2026-08-13T15:37:23+00:00",
   "package": {
     "path": ".",
-    "public_file_count_excluding_manifest": 23,
+    "public_file_count_excluding_manifest": 24,
     "manifest_scope": "all curated public files except this manifest and the ZIP",
     "freshness_note": "The ZIP is generated from the same unchanged files immediately after this manifest. validate_artifacts.py verifies every listed hash and archive member."
   },
@@ -33,8 +33,8 @@
     {
       "path": "README.md",
       "available": true,
-      "bytes": 8466,
-      "sha256": "d678e3080db85e0ffe84dc899e67cc9c118d80a6fb949f9159c41c850611ed6b"
+      "bytes": 9818,
+      "sha256": "703320ad016b1d00c0569102f0015fab2838bd490e843b4f4fea526d7a759c7f"
     },
     {
       "path": "docs/business_value_validation.md",
@@ -47,6 +47,12 @@
       "available": true,
       "bytes": 2901,
       "sha256": "0b25fe4071d8f2bbf691ee9ac7085bcd336d6e71ad74cc7e93ce7eb444282a34"
+    },
+    {
+      "path": "docs/stakeholder_validation_handoff.md",
+      "available": true,
+      "bytes": 5429,
+      "sha256": "9060333b4a2500aa30cc57fb133e9dcfbb990f627f7f9e3b278081b95491f7a5"
     },
     {
       "path": "evaluation.md",
@@ -75,8 +81,8 @@
     {
       "path": "notebooks/06_hurdle_cadence_model.ipynb",
       "available": true,
-      "bytes": 529622,
-      "sha256": "e068883d5d3832b51f7e853dfaff441bad9cd4bd6b902a2ba3c82ad0695c989e"
+      "bytes": 527816,
+      "sha256": "43904ace1bee3cb84d5ea176e944c9ec1d7f04150f97db1b49e714ad764e7e36"
     },
     {
       "path": "notebooks/07_alert_episodes_and_pilot.ipynb",

@@ -67,6 +67,18 @@ Recommended reading sequence:
 | [evaluation.md](evaluation.md) | Concise evaluation reference |
 | [docs/business_value_validation.md](docs/business_value_validation.md) | Commercial-validation protocol |
 | [docs/reader_guide.md](docs/reader_guide.md) | Plain-language guide to the notebook sequence, metrics, and boundaries |
+| [docs/stakeholder_validation_handoff.md](docs/stakeholder_validation_handoff.md) | Public-safe operational extension from technical candidates to a private stakeholder-review package |
+
+## Optional operational extension
+
+After the core notebook analysis, the project converted separately frozen analytical signals into a
+privacy-controlled stakeholder-review workflow. The extension demonstrates independent-family
+agreement controls, data-quality gates, aggregate business prioritization, private identifier
+resolution, and reproducible HTML/Excel/CSV delivery. It is documented separately because it did
+not change the classifier selection or add stakeholder outcome evidence to the graded analysis.
+
+See [Stakeholder Validation Handoff](docs/stakeholder_validation_handoff.md) for the public-safe
+workflow, aggregate package counts, and evidence boundary.
 
 ## Data and preparation
 
@@ -128,3 +140,16 @@ The evidence covers temporal predictive performance, queue sensitivity, and comp
 Anomaly correctness, novelty, actionability, adoption, ROI, and financial impact require the
 blinded commercial review documented in
 [docs/business_value_validation.md](docs/business_value_validation.md).
+
+## Next steps
+
+1. Complete the blinded commercial review and measure novelty, actionability, and review effort.
+2. Compare the two investigation lenses using the retained sampling weights and reviewer outcomes.
+3. Consider adoption or automation only if the commercial evidence meets an agreed decision gate.
+
+## Contact
+
+**Marco Fabbri**
+
+[GitHub profile](https://github.com/mrcfabbri) ·
+[128336792+mrcfabbri@users.noreply.github.com](mailto:128336792+mrcfabbri@users.noreply.github.com)
