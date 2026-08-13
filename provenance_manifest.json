@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-13T15:37:23+00:00",
+  "generated_at_utc": "2026-08-13T20:17:49+00:00",
   "package": {
     "path": ".",
-    "public_file_count_excluding_manifest": 24,
+    "public_file_count_excluding_manifest": 26,
     "manifest_scope": "all curated public files except this manifest and the ZIP",
     "freshness_note": "The ZIP is generated from the same unchanged files immediately after this manifest. validate_artifacts.py verifies every listed hash and archive member."
   },
@@ -33,14 +33,26 @@
     {
       "path": "README.md",
       "available": true,
-      "bytes": 9818,
-      "sha256": "703320ad016b1d00c0569102f0015fab2838bd490e843b4f4fea526d7a759c7f"
+      "bytes": 10868,
+      "sha256": "0d831d2f5e33d04d9fd9769aa710362f9dbf44543211d5295d946e098a96f780"
     },
     {
       "path": "docs/business_value_validation.md",
       "available": true,
       "bytes": 2614,
       "sha256": "9e6e6cd1b2a5aa4463892d36e3ca7d308165d8fd7cf4f5297acb8831c66531fd"
+    },
+    {
+      "path": "docs/gelatico_business_guide.md",
+      "available": true,
+      "bytes": 6527,
+      "sha256": "b600c1396a221f728836f4e3cc12ec43be150284f426be77673806649a02fa0d"
+    },
+    {
+      "path": "docs/post_deliverable_experiments.md",
+      "available": true,
+      "bytes": 12062,
+      "sha256": "40a5ff76cc7d66a060194cdc8e4ed191ff12ea79d5c94b0043cf166340020d7e"
     },
     {
       "path": "docs/reader_guide.md",
@@ -147,8 +159,8 @@
     {
       "path": "src/validate_artifacts.py",
       "available": true,
-      "bytes": 9251,
-      "sha256": "e81e7a1fd46c909b2bdc849893d11dcb95ddf31353968407c6e0b8191fefb9c7"
+      "bytes": 9356,
+      "sha256": "b93689ebb791e1e4056a90e5552f54fb3132f0f2ca4bc264e095c5652cf20029"
     },
     {
       "path": "tests/test_module24_workflow.py",

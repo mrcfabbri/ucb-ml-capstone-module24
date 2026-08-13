@@ -29,6 +29,8 @@ MARKDOWN_FILES = (
     ROOT / "report.md",
     ROOT / "evaluation.md",
     ROOT / "docs" / "business_value_validation.md",
+    ROOT / "docs" / "gelatico_business_guide.md",
+    ROOT / "docs" / "post_deliverable_experiments.md",
 )
 LINK_PATTERN = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 LOCAL_PATH_TOKENS = ("/Users/", "Dropbox/GitHub", "file://")

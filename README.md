@@ -13,12 +13,21 @@ accurately than the two simple historical baselines. Its investigation queue and
 S2 deviation queue overlap very little. That is enough evidence to run a mixed, blinded review;
 confirmed anomaly status and financial value require separate commercial evaluation.
 
+![Executive dashboard comparing model performance, peer sensitivity, queue overlap, and pilot composition](figures/executive_dashboard.png)
+
 Recommended reading sequence:
 
 1. This README for the decision and the scope.
 2. [99 — Final findings](notebooks/99_final_findings.ipynb) for the executive dashboard.
 3. [report.md](report.md) for a concise, rubric-facing account of the methods and results.
 4. Notebooks 05, 06, and 07 for the detailed evidence behind the peer score, forecast, and pilot.
+
+**Grader shortcut:** data preparation and EDA are in
+[notebook 05](notebooks/05_peer_strategy_baseline.ipynb); modeling, chronological cross-validation,
+GridSearch, and evaluation are in [notebook 06](notebooks/06_hurdle_cadence_model.ipynb); operational
+pilot construction is in [notebook 07](notebooks/07_alert_episodes_and_pilot.ipynb); and findings,
+recommendations, and next steps are in [notebook 99](notebooks/99_final_findings.ipynb) and
+[report.md](report.md).
 
 ### Reference
 
@@ -28,6 +37,8 @@ Recommended reading sequence:
   month; then, what the active-month pattern may look like if it orders.
 - **Forward holdout:** January--June 2026, held back from model selection to provide an
   independent historical test.
+- **Log loss:** a measure of predicted-probability quality; lower is better. It penalizes confident
+  forecasts that turn out to be wrong.
 - **Jaccard overlap:** the share of cases selected by both queues. Low overlap indicates that the
   queues surface different candidates. Commercial usefulness is evaluated separately.
 
@@ -65,6 +76,8 @@ Recommended reading sequence:
 | [07 — Alert episodes and pilot](notebooks/07_alert_episodes_and_pilot.ipynb) | Episode construction and blinded 250-case review sample |
 | [99 — Final findings](notebooks/99_final_findings.ipynb) | Decision dashboard, findings, recommendations, and next steps |
 | [evaluation.md](evaluation.md) | Concise evaluation reference |
+| [docs/gelatico_business_guide.md](docs/gelatico_business_guide.md) | Plain-language guide for GelatiCo business readers |
+| [docs/post_deliverable_experiments.md](docs/post_deliverable_experiments.md) | Appendix covering neural-network, probabilistic, LLM, consensus, and operational extensions |
 | [docs/business_value_validation.md](docs/business_value_validation.md) | Commercial-validation protocol |
 | [docs/reader_guide.md](docs/reader_guide.md) | Plain-language guide to the notebook sequence, metrics, and boundaries |
 | [docs/stakeholder_validation_handoff.md](docs/stakeholder_validation_handoff.md) | Public-safe operational extension from technical candidates to a private stakeholder-review package |
