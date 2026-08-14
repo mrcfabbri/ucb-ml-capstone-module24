@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-14T01:18:24+00:00",
+  "generated_at_utc": "2026-08-14T01:20:46+00:00",
   "package": {
     "path": ".",
     "public_file_count_excluding_manifest": 26,
@@ -33,8 +33,8 @@
     {
       "path": "README.md",
       "available": true,
-      "bytes": 11029,
-      "sha256": "49fa61aa3e754b49b4177eb72b732c2ef3035111981627c23b4fe220569988d8"
+      "bytes": 10888,
+      "sha256": "3c6c104147099fc8de8378eade308fe0d2b91d366d8ef35d9cc2c709fe6422a8"
     },
     {
       "path": "docs/business_value_validation.md",

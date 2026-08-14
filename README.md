@@ -13,8 +13,6 @@ accurately than the two simple historical baselines. Its investigation queue and
 S2 deviation queue overlap very little. That is enough evidence to run a mixed, blinded review;
 confirmed anomaly status and financial value require separate commercial evaluation.
 
-![Executive dashboard comparing model performance, peer sensitivity, queue overlap, and pilot composition](figures/executive_dashboard.png)
-
 Recommended reading sequence:
 
 1. This README for the decision and the scope.
