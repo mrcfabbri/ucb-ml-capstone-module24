@@ -164,5 +164,4 @@ blinded commercial review documented in
 
 **Marco Fabbri**
 
-[GitHub profile](https://github.com/mrcfabbri) ·
-[128336792+mrcfabbri@users.noreply.github.com](mailto:128336792+mrcfabbri@users.noreply.github.com)
+[GitHub profile](https://github.com/mrcfabbri)
