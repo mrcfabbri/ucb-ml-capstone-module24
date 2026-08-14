@@ -58,6 +58,8 @@ recommendations, and next steps are in [notebook 99](notebooks/99_final_findings
   ROI, and financial impact remain outside the evidence until the documented business review is
   completed.
 
+![Executive dashboard comparing forecast performance, peer-strategy sensitivity, queue complementarity, and pilot composition](figures/executive_dashboard.png)
+
 ## Scope of conclusions
 
 | Question | Supported conclusion | Outside the current evaluation |
